@@ -11,7 +11,8 @@ class zigzagLevelOrder{
             this.left = left;
             this.right = right;
         }
-    }    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+    }
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res=new ArrayList<List<Integer>>();
         if(root==null){
             return res;
