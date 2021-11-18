@@ -1,4 +1,4 @@
-public class lowestCommonAncestor {
+public class lowestCommonAncestorBST {
     class TreeNode {
       int val;
       TreeNode left;
