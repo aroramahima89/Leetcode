@@ -33,7 +33,7 @@ public class largestHistogram {
                 s.pop();
             }
             if(s.size()==0){
-                lb[i]=lb.length;
+                lb[i]=-1;
             }
             else{
                 lb[i]=s.peek();
